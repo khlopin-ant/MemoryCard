@@ -13,6 +13,7 @@
 		FEE1F58E2AB01DA000450EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE1F58C2AB01DA000450EF1 /* Main.storyboard */; };
 		FEE1F5902AB01DA200450EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE1F58F2AB01DA200450EF1 /* Assets.xcassets */; };
 		FEE1F5932AB01DA200450EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE1F5912AB01DA200450EF1 /* LaunchScreen.storyboard */; };
+		FEE1F59C2AB0BAF800450EF1 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1F59B2AB0BAF800450EF1 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FEE1F58F2AB01DA200450EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE1F5922AB01DA200450EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEE1F5942AB01DA200450EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE1F59B2AB0BAF800450EF1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FEE1F5852AB01DA000450EF1 /* MemoryCard */ = {
 			isa = PBXGroup;
 			children = (
+				FEE1F59A2AB0BAC500450EF1 /* Extension */,
 				FEE1F5862AB01DA000450EF1 /* AppDelegate.swift */,
 				FEE1F5882AB01DA000450EF1 /* SceneDelegate.swift */,
 				FEE1F58A2AB01DA000450EF1 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				FEE1F5942AB01DA200450EF1 /* Info.plist */,
 			);
 			path = MemoryCard;
+			sourceTree = "<group>";
+		};
+		FEE1F59A2AB0BAC500450EF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FEE1F59B2AB0BAF800450EF1 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				FEE1F58B2AB01DA000450EF1 /* ViewController.swift in Sources */,
 				FEE1F5872AB01DA000450EF1 /* AppDelegate.swift in Sources */,
 				FEE1F5892AB01DA000450EF1 /* SceneDelegate.swift in Sources */,
+				FEE1F59C2AB0BAF800450EF1 /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

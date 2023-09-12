@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func playButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "Play", sender: self)
+    }
 }
 
